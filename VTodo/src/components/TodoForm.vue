@@ -5,7 +5,7 @@
   </label>
   
   <label id="title" class="form-label">Title
-    <input class="form-input" type="text" placeholder="Get milk..." v-model.trim="todo.title">
+    <input class="form-input" type="text" placeholder="" v-model.trim="todo.title">
   </label>
 
   <button type="submit" title="save" class="todo-form-btn">{{ icon }}</button>
